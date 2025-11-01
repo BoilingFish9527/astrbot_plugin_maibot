@@ -54,7 +54,7 @@ class MyPlugin(Star):
             await event.Plain_result("该用户禁止了其他人获取数据。")
         else:
             chain = [
-                Comp Image.fromURL(f"base64://{str(image_to_base64(img), encoding='utf-8')}")
+                Comp.Image.fromURL(f"base64://{str(image_to_base64(img), encoding='utf-8')}")
             ]
             await event.chain_result(chain)
 
