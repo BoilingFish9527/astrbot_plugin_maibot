@@ -2,11 +2,11 @@ from astrbot.api.event import filter, AstrMessageEvent, MessageEventResult
 from astrbot.api.star import Context, Star, register
 from astrbot.api import logger
 
-from libraries.tool import hash
-from libraries.maimaidx_music import *
-from libraries.image import *
-from libraries.maimai_best_40 import generate
-from libraries.maimai_best_50 import generate50
+from tool import hash
+from maimaidx_music import *
+from image import *
+from maimai_best_40 import generate
+from maimai_best_50 import generate50
 import re
 
 
